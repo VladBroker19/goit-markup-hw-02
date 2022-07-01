@@ -1,0 +1,102 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет шапки #FFFFFF */
+/* цвет героя #2F303A; */
+/* цвет текста героя #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+/* текст футера rgba(255, 255, 255, 0.6); */
+.root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;}
+
+.page {background-color: #fff;
+color: var(--primary-text-color);
+font-family: roboto, sans-serif;}
+
+/* шапка */
+.list {list-style: none;}
+.logo-link {color: var(--title-text-color);
+font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+text-decoration: none;}
+.logo-accent {color: #2196F3;}
+.site-nav .link {color: var(--title-text-color);
+font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    }
+.site-nav .link:hover,
+.site-nav .link:focus {color: #2196F3;}
+.site-nav .link-current {color: #2196F3;}
+.auth-nav .tel {color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+.auth-nav .link {color: #2196F3;
+font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+text-decoration: none;}
+/* hero */
+
+.hero {background-color: #2F303A;}
+.hero-title {color: #fff;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    }
+
+/* button */
+.button {
+    background-color: #2196F3;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-decoration: none;
+}
+.section {color: var(--primary-text-color);}
+.section-title {color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+}
+
+/* features */
+.feature-list .title {color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.feature-list .text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+    }
+/* our team */
+.team-list .title {color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;}
+.team-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    }
+
+/* footer */
+

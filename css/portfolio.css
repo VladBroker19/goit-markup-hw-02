@@ -1,0 +1,72 @@
+.root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+.page {
+    background-color: #fff;
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+}
+
+/* шапка */
+.list {
+    list-style: none;
+}
+
+.logo-link {
+    color: var(--title-text-color);
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1, 19;
+}
+
+.logo-accent {
+    color: #2196F3;
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.site-nav .link-current {
+    color: #2196F3;
+}
+
+.auth-nav .tel {
+    color: var(--title-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+}
+
+.auth-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+}
+/* main */
+
+
+/* work-list */
+.work-list {color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;}
+.work-list .title {color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;}
