@@ -15,8 +15,21 @@
 color: var(--primary-text-color);
 font-family: roboto, sans-serif;}
 
+.container {margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+padding-left: 15px;
+padding-right: 15px;}
+
 /* шапка */
-.list {list-style: none;}
+.main-nav {display: flex;
+align-items: center;}
+
+.list {list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 .logo-link {color: var(--title-text-color);
 font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -24,17 +37,43 @@ font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1,19;
 text-decoration: none;}
+
 .logo-accent {color: #2196F3;}
-.site-nav .link {color: var(--title-text-color);
-font-style: normal;
+
+.site-nav {display: flex;
+margin-left: 93px;}
+
+.site-nav .link {padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+   
     }
+
 .site-nav .link:hover,
-.site-nav .link:focus {color: #2196F3;}
-.site-nav .link-current {color: #2196F3;}
+.site-nav .link:focus {color: #2196F3;
+}
+
+.site-nav .link-current {display: block;
+    padding-top: 32px;
+        padding-bottom: 32px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    color: #2196F3;
+}
+.site-nav .item + .item {margin-left: 50px;}
+
+.auth-nav {display: flex;
+margin-left: auto;}
+
 .auth-nav .tel {color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -46,10 +85,21 @@ font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 text-decoration: none;}
+
+.auth-nav .item + .item {margin-left: 50px;}
 /* hero */
 
-.hero {background-color: #2F303A;}
-.hero-title {color: #fff;
+.hero {text-align: center;
+    background-color: #2F303A;
+
+margin-top: 0;
+margin-bottom: 94px;}
+
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 40px;
+
+    color: #fff;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -59,15 +109,23 @@ text-decoration: none;}
 
 /* button */
 .button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+
     background-color: #2196F3;
     color: #fff;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     text-decoration: none;
+    text-align: center;
 }
 .section {color: var(--primary-text-color);}
-.section-title {color: var(--title-text-color);
+
+.section-title {display: none;
+    color: var(--title-text-color);
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
@@ -75,28 +133,86 @@ text-decoration: none;}
 }
 
 /* features */
-.feature-list .title {color: var(--title-text-color);
+.feature-list .title {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
 }
-.feature-list .text {
+.feature-list .text {margin-top: 0;
+    margin-bottom: 94px;
+    
     font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
     }
+.feature-list {display: flex;
+    flex-wrap: wrap;
+}
+.feature-list .item {width: 270px;}
+.feature-list .item + .item {margin-left: 30px;}
+
+    /* specification */
+.specification {color: var(--primary-text-color);}
+.specification-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;}
+
+.specification .list {display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 94px;
+}
+.specification .item + .item {margin-left: 30px;}
+
 /* our team */
+.section-team {padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;}
+
+.section-team .title {margin-top: 0;
+    margin-bottom: 50px;
+
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;}
 .team-list .title {color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;}
+    text-align: center;
+   
+    margin-top: 30px;
+margin-bottom: 10px;}
+
 .team-list .text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+   
+    margin-top: 0;
+    margin-bottom: 30px;
     }
+
+.team-list {display: flex;
+flex-wrap: wrap;
+margin-top: 0;
+margin-bottom: 94px;}
+
+.section-team .item + .item {margin-left: 30px;
+}
 
 /* footer */
 
