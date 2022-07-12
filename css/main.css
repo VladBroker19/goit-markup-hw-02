@@ -11,13 +11,11 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
 }
-
 .page {
   background-color: #fff;
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
 }
-
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -25,19 +23,16 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-
 /* шапка */
 .main-nav {
   display: flex;
   align-items: center;
 }
-
 .list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .logo-link {
   color: var(--title-text-color);
   font-family: 'Raleway', sans-serif;
@@ -47,16 +42,13 @@
   line-height: 1, 19;
   text-decoration: none;
 }
-
 .logo-accent {
   color: #2196f3;
 }
-
 .site-nav {
   display: flex;
   margin-left: 93px;
 }
-
 .site-nav .link {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -68,12 +60,10 @@
   line-height: 1.14;
   text-decoration: none;
 }
-
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
 }
-
 .site-nav .link-current {
   display: block;
   padding-top: 32px;
@@ -88,12 +78,10 @@
 .site-nav .item + .item {
   margin-left: 50px;
 }
-
 .auth-nav {
   display: flex;
   margin-left: auto;
 }
-
 .auth-nav .tel {
   color: var(--title-text-color);
   font-weight: 500;
@@ -108,12 +96,10 @@
   line-height: 1.14;
   text-decoration: none;
 }
-
 .auth-nav .item + .item {
   margin-left: 50px;
 }
 /* hero */
-
 .hero {
   text-align: center;
   background-color: #2f303a;
@@ -121,7 +107,6 @@
   margin-top: 0;
   margin-bottom: 94px;
 }
-
 .hero-title {
   margin-top: 0;
   margin-bottom: 40px;
@@ -133,7 +118,6 @@
   line-height: 1.36;
   text-align: center;
 }
-
 /* button */
 .button {
   display: inline-block;
@@ -152,7 +136,6 @@
 .section {
   color: var(--primary-text-color);
 }
-
 .section-title {
   display: none;
   color: var(--title-text-color);
@@ -161,7 +144,6 @@
   line-height: 1.17;
   text-align: center;
 }
-
 /* features */
 .feature-list .title {
   margin-top: 0;
@@ -176,7 +158,6 @@
   margin-top: 0;
   margin-bottom: 94px;
 
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -205,7 +186,6 @@
   line-height: 1.17;
   text-align: center;
 }
-
 .specification .list {
   display: flex;
   flex-wrap: wrap;
@@ -215,14 +195,12 @@
 .specification .item + .item {
   margin-left: 30px;
 }
-
 /* our team */
 .section-team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
 }
-
 .section-team .title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -243,9 +221,7 @@
   margin-top: 30px;
   margin-bottom: 10px;
 }
-
 .team-list .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -253,16 +229,13 @@
   margin-top: 0;
   margin-bottom: 30px;
 }
-
 .team-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 94px;
 }
-
 .section-team .item + .item {
   margin-left: 30px;
 }
-
 /* footer */
