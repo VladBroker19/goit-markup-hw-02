@@ -32,6 +32,9 @@ figure {
   margin: 0;
 }
 /* шапка */
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 .main-nav {
   display: flex;
   align-items: center;
@@ -302,6 +305,7 @@ figure {
 .work-list .title {
   margin-top: 20px;
   margin-bottom: 4px;
+  margin-left: 24px;
 
   color: var(--title-text-color);
   font-weight: 700;
@@ -313,6 +317,7 @@ figure {
 .work-list .text {
   margin-top: 0;
   margin-bottom: 20px;
+  margin-left: 24px;
 
   font-size: 16px;
   line-height: 1.88;
