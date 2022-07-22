@@ -205,7 +205,6 @@ button {
 .feature .item + .item {
   margin-left: 30px;
 }
-
 /* specification */
 .specification .list {
   display: flex;
