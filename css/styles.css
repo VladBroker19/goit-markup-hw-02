@@ -41,8 +41,6 @@ button {
 /* шапка */
 .page-header {
   border-bottom: 1px solid #ececec;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .main-nav {
   display: flex;
@@ -199,6 +197,7 @@ button {
 .feature {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 0;
 }
 .feature .item {
   width: 270px;
