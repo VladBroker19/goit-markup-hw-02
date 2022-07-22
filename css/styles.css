@@ -255,7 +255,10 @@ button {
 .team .item + .item {
   margin-left: 30px;
 }
-figure .img {
+/* figure .img {
+  display: block;
+} */
+.picture {
   display: block;
 }
 
